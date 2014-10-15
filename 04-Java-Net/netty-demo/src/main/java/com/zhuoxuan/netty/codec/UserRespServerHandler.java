@@ -45,9 +45,9 @@ public class UserRespServerHandler extends ChannelInboundHandlerAdapter {
 			UserDO zhuoxuan = new UserDO();
 			zhuoxuan.setUserId(userId);
 			zhuoxuan.setSex(1);
-			zhuoxuan.setUname("卓轩");
-			zhuoxuan.setUnick("zhuoxuan");
-			zhuoxuan.setEmail("zhuoxuan@mogujie.com");
+			zhuoxuan.setUname("张三");
+			zhuoxuan.setUnick("zhangsan");
+			zhuoxuan.setEmail("zhangsan@126.com");
 			return zhuoxuan;
 		}else{
 			UserDO zhuoxuan = new UserDO();
@@ -55,7 +55,7 @@ public class UserRespServerHandler extends ChannelInboundHandlerAdapter {
 			zhuoxuan.setSex(1);
 			zhuoxuan.setUname("张三");
 			zhuoxuan.setUnick("zhangsan");
-			zhuoxuan.setEmail("zhuoxuan@mogujie.com");
+			zhuoxuan.setEmail("zhangsan@126.com");
 			return zhuoxuan;
 		}
 		

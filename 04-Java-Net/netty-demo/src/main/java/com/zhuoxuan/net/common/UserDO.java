@@ -18,8 +18,6 @@ public class UserDO implements Serializable {
 
 	private static final long serialVersionUID = 7289036533757178921L;
 
-
-
 	/**
 	 * userid
 	*/
@@ -45,70 +43,41 @@ public class UserDO implements Serializable {
 	*/
 	private Integer sex;
 
-
-
-
 	public int getUserId() {
 		return userId;
 	}
-
-
-
 
 	public void setUserId(int userId) {
 		this.userId = userId;
 	}
 
-
-
-
 	public String getEmail() {
 		return email;
 	}
-
-
-
 
 	public void setEmail(String email) {
 		this.email = email;
 	}
 
-
-
-
 	public String getUname() {
 		return uname;
 	}
-
-
-
 
 	public void setUname(String uname) {
 		this.uname = uname;
 	}
 
-
-
-
 	public String getUnick() {
 		return unick;
 	}
-
-
-
 
 	public void setUnick(String unick) {
 		this.unick = unick;
 	}
 
-
-
-
 	public Integer getSex() {
 		return sex;
 	}
-
-
 
 
 	public void setSex(Integer sex) {
@@ -119,7 +88,6 @@ public class UserDO implements Serializable {
 	public String toString() {
 		return "UserDO ["+this.userId+"],["+this.uname+"],["+this.unick+"],["+this.email+"]";
 	}
-
 
 	public byte [] coder(){
 

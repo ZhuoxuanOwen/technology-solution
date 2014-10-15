@@ -2,8 +2,6 @@ package com.zhuoxuan.cache.redis.context;
 
 import java.util.List;
 
-import javax.annotation.PostConstruct;
-
 import redis.clients.jedis.JedisPoolConfig;
 import redis.clients.jedis.JedisShardInfo;
 import redis.clients.jedis.ShardedJedis;
@@ -32,7 +30,6 @@ public class AtomRedisPool {
 	//设置当前线程获取的ShardedJedis资源
 	private ThreadLocal<ShardedJedis> shardedLocal = new ThreadLocal<ShardedJedis>(); 
 	
-	@PostConstruct
 	public void refush(){
 		
 		shardedJedisPool = new ShardedJedisPool(configPool, sharded);

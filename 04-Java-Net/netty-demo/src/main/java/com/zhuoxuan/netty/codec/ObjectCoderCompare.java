@@ -33,8 +33,8 @@ public class ObjectCoderCompare {
 			zhuoxuan.setUserId(113445);
 			zhuoxuan.setSex(1);
 			zhuoxuan.setUname("卓轩");
-			zhuoxuan.setUnick("zhuoxuan");
-			zhuoxuan.setEmail("zhuoxuan@mogujie.com");
+			zhuoxuan.setUnick("test");
+			zhuoxuan.setEmail("126@126.com");
 			
 			System.out.println("byte array 序列化大小:" + zhuoxuan.coder().length);
 			
@@ -64,7 +64,7 @@ public class ObjectCoderCompare {
 			zhuoxuan.setSex(1);
 			zhuoxuan.setUname("卓轩");
 			zhuoxuan.setUnick("zhuoxuan");
-			zhuoxuan.setEmail("zhuoxuan@mogujie.com");
+			zhuoxuan.setEmail("test@126.com");
 			
 			long startTime = System.currentTimeMillis();
 			int count = 1000000;

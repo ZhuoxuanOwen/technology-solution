@@ -51,7 +51,4 @@ public class SimpleClientHandler extends ChannelInboundHandlerAdapter {
 
 		ctx.close();
 	}
-	
-	
-
 }

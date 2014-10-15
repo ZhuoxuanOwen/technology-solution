@@ -23,9 +23,9 @@ public class SimpleClient {
 		UserDO zhuoxuan = new UserDO();
 		zhuoxuan.setUserId(113445);
 		zhuoxuan.setSex(1);
-		zhuoxuan.setUname("卓轩");
-		zhuoxuan.setUnick("zhuoxuan");
-		zhuoxuan.setEmail("zhuoxuan@mogujie.com");
+		zhuoxuan.setUname("张三");
+		zhuoxuan.setUnick("zhangsan");
+		zhuoxuan.setEmail("zhangsan@126.com");
 		//调用方法处理
 		boolean reusltCache = RedisClient.set("zhuoxuan", zhuoxuan);
 		if (reusltCache) {
