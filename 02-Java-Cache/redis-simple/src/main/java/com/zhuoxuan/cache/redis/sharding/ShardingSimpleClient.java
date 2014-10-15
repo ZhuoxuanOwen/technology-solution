@@ -25,7 +25,7 @@ public class ShardingSimpleClient {
 		zhuoxuan.setSex(1);
 		zhuoxuan.setUname("张三");
 		zhuoxuan.setUnick("zhangsan");
-		zhuoxuan.setEmail("zhangsan@mogujie.com");
+		zhuoxuan.setEmail("zhangsan@126.com");
 		//调用方法处理
 		boolean reusltCache =  ShardingRedisClient.set("zhangsan", zhuoxuan);
 		if (reusltCache) {

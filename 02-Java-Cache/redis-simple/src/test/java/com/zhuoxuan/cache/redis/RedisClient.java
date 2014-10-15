@@ -23,7 +23,7 @@ public class RedisClient {
 		lisi.setSex(1);
 		lisi.setUname("李四");
 		lisi.setUnick("lisi");
-		lisi.setEmail("lisi@mogujie.com");
+		lisi.setEmail("lisi@126.com");
 		// 调用方法处理
 		boolean reusltCache = client.set("lisi", lisi);
 		if (reusltCache) {
